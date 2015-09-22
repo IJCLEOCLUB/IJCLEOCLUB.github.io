@@ -1,8 +1,8 @@
 .blurbg{
-filter        : blur(2px) sepia();
--moz-filter   : blur(2px) sepia();
--webkit-filter: blur(2px) sepia();
--o-filter     : blur(2px) sepia();
+filter        : blur(8px) sepia();
+-moz-filter   : blur(8px) sepia();
+-webkit-filter: blur(8px) sepia();
+-o-filter     : blur(8px) sepia();
 background: url('malacca.jpg') no-repeat center center; 
 -webkit-background-size: cover; 
 -moz-background-size: cover; 
