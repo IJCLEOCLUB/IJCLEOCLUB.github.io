@@ -43,10 +43,10 @@
                     }
                     if (def.ShowDesc) {
                         if (def.DescCharacterLimit > 0 && item.content.length > def.DescCharacterLimit) {
-                            s += '<div class="itemContent">' + item.content.substr(0, def.DescCharacterLimit) + "...</div>";
+                            s += '<div class="itemContent col-md-12"><span style="line-height:14px;text-align:justify">' + item.content.substr(0, def.DescCharacterLimit) + "...</span></div>";
                         }
                         else {
-                            s += '<div class="itemContent">' + item.content + "</div>";
+                            s += '<div class="itemContent col-md-12"><span style="line-height:14px;text-align:justify">' + item.content + "</span></div>";
                         }
                     }
                 });

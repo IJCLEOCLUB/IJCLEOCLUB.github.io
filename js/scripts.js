@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
 	$('.wp1').waypoint(function() {
-		$('.wp1').addClass('animated fadeInLeft');
+		$('.wp1').addClass('animated fadeInDown');
 	}, {
 		offset: '75%'
 	});
@@ -100,7 +100,7 @@ $(document).ready(function(){
     }
 });
 
-/***************** Flexsliders ******************/
+/***************** Flexsliders *****************
 
 $(window).load(function() {
 
@@ -137,4 +137,4 @@ $(window).load(function() {
 		}
 	});
 
-});
+});*/
